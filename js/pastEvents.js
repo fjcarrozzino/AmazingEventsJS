@@ -52,7 +52,6 @@ function pastEvents(data) {
         </div>
         <div class="d-flex justify-content-between align-items-center mt-4">
         <p class="mb-0">Price: $${data[i].price}</p>
-        <a href="./details.html?id=${data[i].id}" class="btn btn-primary">More Details</a>
                         </div>
                     </div>
                     </div>`;
