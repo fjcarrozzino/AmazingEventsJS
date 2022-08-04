@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../images/favicon.png">
+  </head>
+  <body>
+    <header class="header">
+        <a href="../index.html"><img class="logo" src="../images/logo" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbar-css">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="./pastevents.html">Past Events</a>
+                    <a class="nav-link" href="#">Upcoming Events</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+    <main>
+      <div class="d-flex justify-content-between title bg-light align-items-center">
+        <a href="./pastevents.html"><i class="fa-solid fa-angle-left fa-4x icon"></i></a>  
+        <h1>UPCOMING EVENTS</h1>
+        <a href="./contact.html"><i class="fa-solid fa-angle-right fa-4x icon"></i></a>
+      </div>
+
+      <form class="d-flex align-items-center justify-content-between mt-4 p-4 form-search">
+        <div class="form d-flex flex-wrap" id="checkboxes">
+        
+        </div>
+
+        <div class="d-flex search-bar-main">
+          <input class="form-control me-2 search-bar" id="search-bar" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" id="search-button" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </form>
+
+      <div class="d-flex justify-content-around flex-wrap mt-5 cards p-4" id="div-upcoming-events">
+
+      
+    </div>
+  </main>
+  
+  <footer class="d-flex justify-content-between p-5 align-items-center footer">
+      <div class="icons-footer">
+          <a href=""><i class="fa-brands fa-instagram-square fa-4x"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-square fa-4x"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp-square fa-4x"></i></a>
+        </div>
+        <div>
+            <h2 class="h2-footer text-white">Francisco Carrozzino - Cohort 28</h2>
+        </div>
+    </footer>
+        <script src="../js/upcomingEvents.js"></script>
+</body>
+</html>

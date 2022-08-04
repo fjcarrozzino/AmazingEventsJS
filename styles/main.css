@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo {
+    height: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgb(63, 58, 58);
+}
+
+.navbar-css {
+    font-size: 1.2rem;
+}
+
+.navbar-css :hover {
+    background-color: rgb(58, 50, 53);
+}
+
+.navbar-css a {
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    margin-right: 2rem;
+    border: 1px solid rgb(247, 99, 163);
+    padding: 1rem 2rem;
+
+}
+
+.title {
+    padding: 1rem;
+    height: 8rem;
+    
+}
+
+.icon {
+    color: black;
+}
+
+.form label{
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+}
+
+.h2-footer {
+    font-size: 3rem;
+}
+
+.icons-footer i{
+    margin-right: 4rem;
+    color: rgb(235, 233, 233);
+}
+
+.form-contact {
+    justify-content: center;
+    align-items: center;
+    height: 29.2rem;
+}
+
+.form-contact input, textarea {
+    width: 100%;
+}
+
+.footer {
+    margin-top: 8.4rem;
+    background-color: rgb(63, 58, 58);
+}
+
+.main {
+    justify-content: center;
+    gap: 5rem;
+    border: 1px solid black;
+    margin: 5rem 0;
+    padding: 1rem;
+}
+
+.main-details {
+    padding: 0 30rem;
+}
+
+.main-contact {
+    height: 40.8rem;
+}
+
+.img-details {
+    object-fit: fill;
+    height: 100%;
+    width: 25rem;
+}
+
+.titulo-detail p{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.titulo-detail span {
+    font-weight: bold;
+}
+
+.input-checkbox {
+    margin-right: .5rem;
+}
+
+.h1-nothing-found {
+    height: 19.4rem;
+}
+
+.h1-nothing-found2 {
+    height: 14rem;
+}
+
+.titulo-detail {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cine-img {
+    height: 171.59px;
+}
+
+.form-divs {
+    width: 40%;
+}
+
+.submit {
+    width: 20%;
+    margin-top: 1rem;
+}
+
+.table-stats {
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+th {
+    padding-right: 10rem;
+    width: 33.6rem;
+}
+
+.th {
+    padding-right: 2rem;
+}
+
+tr {
+    width: 100%;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(232, 235, 235);
+}
+
+.table-stats>h2 {
+    background-color: rgb(230, 172, 172);
+    width: 85%;
+    padding: 1rem;
+}
+
+.cards {
+    gap: 2rem;
+}
+
+.search-bar-main {
+    width: 40%;
+}
+
+@media (max-width: 700px) {
+    .form-search {
+        flex-direction: column;
+        align-items:flex-start !important;
+    }
+    .search-bar {
+        width: 10rem !important;
+    }
+    .search-bar-main {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .cards {
+        gap: 0rem !important;
+    }
+}
+
+@media  (max-width: 1265px) {
+    .cards {
+        gap: 7rem;
+    }
+}
+
+@media (max-width:400px) {
+    .header {
+        display: block;
+    }
+}
+
+@media (max-width: 1650px) {
+    th {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    th {
+        width: 26rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .table-stats {
+        margin-left: 0rem;
+    }
+    .table-stats>h2 {
+        width: 100%;
+    }
+    th {
+        padding: .2rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .main-details {
+        padding: 0 15rem;
+    }
+    .img-details {
+        width: 20rem;
+        height: 100%;
+    }
+}
+
+
+
+@media (max-width: 1700px) {
+    .img-details {
+        width: 15rem;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-details {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-details {
+        padding: 0 5rem;
+    }
+    .img-details {
+        width: 15rem;
+        height: 100%;
+    }
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-details {
+        padding: 0 5rem;
+    }
+    .img-details {
+        width: 15rem;
+        height: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .main-details {
+        padding: 0;
+    }
+    .img-details {
+        width: 10rem;
+    }
+}
