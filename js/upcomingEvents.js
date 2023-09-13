@@ -3,7 +3,7 @@ let checkboxSelected = [];
 let textSearch = "";
 
 async function dataApi(){
-  await fetch("https://amazing-events.herokuapp.com/api/events")
+  await fetch("https://mindhub-xj03.onrender.com/api/amazing")
   .then(resp => resp.json())
   .then(json => dataArray = json)
 
